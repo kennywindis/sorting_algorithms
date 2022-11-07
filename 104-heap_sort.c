@@ -8,6 +8,7 @@
  * @size: The size of the array.
  * Return: Nothing
  */
+
 void swap_root(int *array, size_t root, size_t hi, size_t size)
 {
 	size_t lo = 0, mi = 0, tmp = 0;
@@ -37,6 +38,7 @@ void swap_root(int *array, size_t root, size_t hi, size_t size)
  * @size: The size of the array.
  * Return: Nothing.
  */
+
 void heap_sort(int *array, size_t size)
 {
 	size_t hi = 0, gap = 0;
