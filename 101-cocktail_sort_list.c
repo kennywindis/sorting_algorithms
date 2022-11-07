@@ -2,11 +2,12 @@
 
 /**
  * quick_sort - function that sorts an array of integers
- *              in ascending order using the Quick sort algorithm
+ * in ascending order using the Quick sort algorithm
  * @array: array
  * @size: array's size
  * Return: void
  */
+
 void quick_sort(int *array, size_t size)
 {
 	if (array == NULL || size < 2)
@@ -23,6 +24,7 @@ void quick_sort(int *array, size_t size)
  * @size: array's size
  * Return: i
  */
+
 int partition(int *array, int lo, int hi, size_t size)
 {
 	int i = lo - 1, j = lo;
@@ -60,6 +62,7 @@ int partition(int *array, int lo, int hi, size_t size)
  * @size: array's size
  * Return: void
  */
+
 void quick_s(int *array, int lo, int hi, size_t size)
 {
 	int pivot;
