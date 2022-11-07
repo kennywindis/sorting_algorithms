@@ -8,6 +8,7 @@
   * @size: The length of the array.
   * Return: Nothing.
   */
+
 void counting_sort(int *array, size_t size)
 {
 	unsigned int i = 1;
