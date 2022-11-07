@@ -10,6 +10,7 @@ void quick_sort_hoare(int *array, size_t size);
  * @a: The first integer to swap.
  * @b: The second integer to swap.
  */
+
 void swap_ints(int *a, int *b)
 {
 	int tmp;
@@ -21,7 +22,7 @@ void swap_ints(int *a, int *b)
 
 /**
  * hoare_partition - Order a subset of an array of integers
- *                   according to the hoare partition scheme.
+ * according to the hoare partition scheme.
  * @array: The array of integers.
  * @size: The size of the array.
  * @left: The starting index of the subset to order.
@@ -32,6 +33,7 @@ void swap_ints(int *a, int *b)
  * Description: Uses the last element of the partition as the pivot.
  * Prints the array after each swap of two elements.
  */
+
 int hoare_partition(int *array, size_t size, int left, int right)
 {
 	int pivot, above, below;
@@ -65,6 +67,7 @@ int hoare_partition(int *array, size_t size, int left, int right)
  *
  * Description: Uses the Hoare partition scheme.
  */
+
 void hoare_sort(int *array, size_t size, int left, int right)
 {
 	int part;
@@ -79,13 +82,14 @@ void hoare_sort(int *array, size_t size, int left, int right)
 
 /**
  * quick_sort_hoare - Sort an array of integers in ascending
- *                    order using the quicksort algorithm.
+ * order using the quicksort algorithm.
  * @array: An array of integers.
  * @size: The size of the array.
  *
  * Description: Uses the Hoare partition scheme. Prints
  * the array after each swap of two elements.
  */
+
 void quick_sort_hoare(int *array, size_t size)
 {
 	if (array == NULL || size < 2)
