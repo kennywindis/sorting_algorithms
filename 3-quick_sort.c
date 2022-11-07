@@ -7,6 +7,7 @@
  * @size: array's size
  * Return: void
  */
+
 void quick_sort(int *array, size_t size)
 {
 	if (array == NULL || size < 2)
