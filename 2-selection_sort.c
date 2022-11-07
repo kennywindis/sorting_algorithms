@@ -6,6 +6,7 @@
  * @size: The size of the array.
  * Return: Nothing.
  */
+
 void selection_sort(int *array, size_t size)
 {
 	int aux = 0;
