@@ -4,7 +4,7 @@
  * cocktail_sort_list - function that sorts a linked list using coctail
  * @list: pointer to first node in linked list
  */
-void cocktail_sort_list(listint_t **list);
+void cocktail_sort_list(listint_t **list)
 {
 	listint_t *cursor;
 	int cont = 1;
