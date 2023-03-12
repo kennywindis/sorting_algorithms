@@ -1,4 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "sort.h"
+
 
 /**
  * cocktail_sort_list - function that sorts a linked list using coctail
